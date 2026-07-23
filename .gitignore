@@ -1,0 +1,15 @@
+*.bak
+*.un~
+*.*~
+*.scvd
+*.old
+*.uvoptx
+/**/build_*
+/**/*.pyc
+.sconsign.dblite
+.DS_Store
+/.lvgl_v9_for_check.tgz
+/.rtconfig_for_check.h
+/app/font/_disabled_manrope/
+/app/src/custom/*.bak-*
+/release/
