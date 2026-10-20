@@ -1,3 +1,7 @@
+<!-- SVENKUNKKA-README-NAV:BEGIN -->
+[中文项目说明](#project-overview-zh) · [English overview](#project-overview-en) · [维护者 X / Maintainer on X](https://x.com/Svenu1s5)
+<!-- SVENKUNKKA-README-NAV:END -->
+
 # SuperKey Codex Dashboard Firmware
 
 Public, reproducible firmware for the three-screen SuperKey desktop companion.
@@ -140,3 +144,30 @@ unrelated SF32LB52 dev-board image, or guessed addresses.
 The project is Apache-2.0; see [LICENSE](LICENSE). It builds on the public
 SiFli SuperKey codebase and the OpenSiFli SDK submodule. Font assets retain
 their upstream licences; see [docs/THIRD_PARTY.md](docs/THIRD_PARTY.md).
+
+
+---
+
+<!-- SVENKUNKKA-PROJECT-INFO:BEGIN -->
+
+<a id="project-overview-zh"></a>
+## 中文项目说明
+
+针对 SiFli SF32LB52 SuperKey 三屏硬件的仪表盘固件，展示时间天气、Codex 状态与额度，配合 macOS 服务设置按键映射及旋钮音量控制。项目沿用公开 SuperKey 代码与 OpenSiFli SDK。
+
+**使用入口：** 先阅读 [硬件说明](docs/HARDWARE.md) 与 [刷写说明](docs/AI_FLASHING.md)，按匹配版本的完整镜像集和分区地址操作；源码构建流程见原 README。
+
+**范围说明：** 不是通用 SF32LB52 固件；刷写涉及分区表和引导程序，需确认准确板型、端口和镜像，保留第三方许可。
+
+<a id="project-overview-en"></a>
+## English project overview
+
+Dashboard firmware for the SiFli SF32LB52 SuperKey three-screen hardware, showing time, weather, Codex state and usage, with a macOS companion for button mappings and encoder volume control. It builds on public SuperKey code and the OpenSiFli SDK.
+
+**Getting started:** Read the [hardware guide](docs/HARDWARE.md) and [flashing guide](docs/AI_FLASHING.md), then use the matching complete image set and partition addresses. Source build steps are provided in the original README.
+
+**Scope:** Not a universal SF32LB52 image. Flashing includes the partition table and bootloader, so exact board, port and image identification is required. Third-party licenses are preserved.
+
+**仓库维护者 / Repository maintainer:** [SvenKunkka](https://github.com/SvenKunkka) · [X / Twitter](https://x.com/Svenu1s5)
+
+<!-- SVENKUNKKA-PROJECT-INFO:END -->
